@@ -35,7 +35,7 @@ Terraform will create one server of size 1 VCPU 1 GB ram in FRA1 region, with th
 
 
 ### In the terraform output you will see the public IP of the droplet
-run the `./deploy.sh` script with a public ip of the droplet
+run the `./deploy.sh` script with a public ip of the droplet, the script expects files to be present in site_files directory
 
     chmod +x deploy.sh
     ./deploy.sh XXX.YYY.ZZZ.XYZ
